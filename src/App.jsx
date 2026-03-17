@@ -140,11 +140,11 @@ function App() {
               <Database className="text-white" size={18} />
             </div>
             <h1 className="font-black text-[11px] uppercase tracking-widest text-white leading-none">
-              Automatizador de Costos - Ferreteria LG
+              Ferreteria LG
             </h1>
           </div>
           <p className="text-[9px] text-slate-500 font-bold uppercase tracking-tight">
-            Backend CRUD Precios v4
+            Automatización de Costos
           </p>
         </header>
 
@@ -266,7 +266,7 @@ function App() {
               size={20}
             />
             <input
-              className="bg-transparent border-none outline-none w-full text-xs font-black text-slate-100 placeholder:text-slate-800 uppercase tracking-widest"
+              className="bg-transparent border-none outline-none w-full text-xs font-white text-slate-100 placeholder:text-slate-800 uppercase tracking-widest"
               placeholder="FILTRAR STOCK POR NOMBRE O CÓDIGO..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -367,7 +367,7 @@ function App() {
             <div className="h-full flex flex-col items-center justify-center opacity-5 select-none grayscale animate-pulse">
               <Package size={150} strokeWidth={1} />
               <p className="font-black text-lg tracking-[0.8em] uppercase text-center ml-4">
-                Terminal S10 Off
+                Productos
               </p>
             </div>
           )}
